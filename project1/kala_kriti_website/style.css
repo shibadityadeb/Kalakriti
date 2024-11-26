@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding:0;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-banner {
+  background-color: #f89999; 
+  text-align: center;
+  padding: 5px 0;
+  color: white;
+  font-size: 17px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff; 
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 80px;width: 100px; 
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.icon {
+  height: 30px; 
+  width: 30px;
+  margin: 0 15px;
+  vertical-align: middle;
+}
+
+.navbar-icons i {
+  vertical-align: middle;
+}
+.content{
+  padding: 20px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  
+}
+.content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.About{
+  text-align: center;
+}
+.About.p{
+  padding:0 0 0 0;
+  margin:0;
+}
+
+
+.saree-collection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.saree-collection h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.saree-row {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  margin-bottom: 20px;
+}
+
+.saree-item {
+  position: relative;
+  flex: 1 1 calc(19% - 10px);
+  max-width: 220px; 
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.saree-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.saree-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .saree-item {
+    flex: 1 1 calc(48% - 10px); 
+    max-width: none; 
+  }
+}
+
+@media (max-width: 480px) {
+  .saree-item {
+    flex: 1 1 calc(100% - 10px); 
+  }
+}
