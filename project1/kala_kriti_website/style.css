@@ -86,6 +86,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   text-align: center;
+  width: 1200;
 }
 
 .saree-collection h1 {
@@ -140,5 +141,69 @@ body {
 @media (max-width: 480px) {
   .saree-item {
     flex: 1 1 calc(100% - 10px); 
+  }
+}
+.kurti-section {
+  text-align: center;
+  padding: 20px;
+}
+.kurti-section h1 {
+  margin-bottom: 20px;
+}
+.kurti-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items in a row */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+.kurti-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.kurti-item img {
+  width: 100%;
+  height: auto;
+}
+.kurti-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+.kurti-item .info {
+  padding: 15px;
+}
+.kurti-item .info h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.kurti-item .info p {
+  color: #e63946;
+  font-weight: bold;
+}
+.kurti-item .quick-view {
+  background-color: #e63946;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #ddd;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.kurti-item .quick-view:hover {
+  background-color: #d62828;
+}
+
+@media (max-width: 768px) {
+  .collection-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+  .collection-grid {
+    grid-template-columns: 1fr; 
   }
 }
