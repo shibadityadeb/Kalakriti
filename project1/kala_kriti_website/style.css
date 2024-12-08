@@ -5,6 +5,7 @@ body {
   background-color: #f9f9f9;
   margin:0;
   padding:0;
+  scroll-behavior: smooth;
   
 }
 
@@ -19,6 +20,39 @@ body {
   padding: 5px 0;
   color: white;
   font-size: 17px;
+}
+
+.content {
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left:10px;
+  width: 1450px;
+  height: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  
+  
+}
+.content img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  animation: scroll-banner 20s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scroll-banner {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
 .navbar-content {
@@ -61,16 +95,7 @@ body {
 .navbar-icons i {
   vertical-align: middle;
 }
-.content{
-  padding: 20px;
-  margin: 10px;
-  width: auto;
-  height: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
-  
-}
+
 .content:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -84,17 +109,19 @@ body {
 }
 
 
-.saree-collection {
+#saree-collection {
   max-width: 120000px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
+  scroll-behavior: smooth;
 }
 
-.saree-collection h1 {
+#saree-collection h1 {
   margin-bottom: 20px;
   font-size: 2rem;
   color: #333;
+  scroll-behavior: smooth;
 }
 
 .saree-row {
