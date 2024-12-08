@@ -83,26 +83,28 @@ body{
     color: #666;
     font-size: 1rem;
 }
-
 .content {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 20px auto;
+    width: 98%; /* Almost full width */
+    margin: 10px auto; /* Very small spacing around the box */
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 2px 4px black;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding doesn't increase the total width */
 }
+
+
 
 .blog-post {
     flex: 1 1 60%;
-    padding: 20px;
+    padding: 5px;
 }
 
 .blog-post h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    text-decoration: underline;
+    
 }
 
 .blog-post .date {
@@ -116,7 +118,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .blog-image img {
