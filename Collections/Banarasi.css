@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding:0;
+    background-color: #f9f9f9;
+    margin:0;
+    padding:0;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-banner {
+    
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+    font-size: 17px;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 80px;width: 100px; 
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .icon {
+    height: 30px; 
+    width: 30px;
+    margin: 0 15px;
+    vertical-align: middle;
+  }
+  
+  .navbar-icons i {
+    vertical-align: middle;
+  }
+  .content{
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    
+  }
+  .content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .About{
+    text-align: center;
+  }
+  .About.p{
+    padding:0 0 0 0;
+    margin:0;
+  }
+
+
+
+
+
+
+.top-banner img {
+    height:10%;
+    width: 100%;
+    
+}
+
+.product1{
+    height:10%;
+    width: 20%;
+    display: flex inline;
+}
+
+
+
+
