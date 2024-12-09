@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding:0;
+    background-color: #f9f9f9;
+    margin:0;
+    padding:0;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-banner {
+    
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+    font-size: 17px;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 80px;width: 100px; 
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .icon {
+    height: 30px; 
+    width: 30px;
+    margin: 0 15px;
+    vertical-align: middle;
+  }
+  
+  .navbar-icons i {
+    vertical-align: middle;
+  }
+  .content{
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    
+  }
+  .content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .About{
+    text-align: center;
+  }
+  .About.p{
+    padding:0 0 0 0;
+    margin:0;
+  }
+
+
+
+
+
+
+.top-banner img {
+    height:10%;
+    width: 100%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.product-card .price {
+    color: #e63946;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sold-out {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
