@@ -42,7 +42,7 @@ body {
   width: auto;
   height: auto;
   white-space: nowrap;
-  animation: scroll-banner 20s linear infinite;
+  animation: scroll-banner 10s linear infinite;
   overflow: hidden;
 }
 
@@ -50,9 +50,14 @@ body {
   0% {
     left: 0;
   }
-  100% {
-    left: -100%;
+  50% {
+    left: -30%;
   }
+  100% {
+    left: 0;
+  }
+
+
 }
 
 .navbar-content {
