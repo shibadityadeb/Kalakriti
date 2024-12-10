@@ -93,7 +93,7 @@ header {
     width: 100%; 
     height: 250px;
     border-radius: 50%;
-    object-fit:cover;>
+    object-fit:cover;
 }
 .team-image {
     width: 100%; 
@@ -129,9 +129,13 @@ footer {
   .contact-info a {
     color: #e63946;
   }
-  .team-image > img {
-    object-fit: ;
-  }
+  
   .team-member > p {
     color: black;
+  }
+  .team-info > a > img {
+    max-width: 40px; 
+    height: auto;    
+    width: 50%;   
+    border-radius: 50%;   
   }
