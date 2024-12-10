@@ -191,3 +191,8 @@ body {
   li:hover {
     color: #f89999;
   }
+  .line{
+    width: auto;
+    background-color: lightgrey;
+    height: 2px;
+  }
