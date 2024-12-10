@@ -210,3 +210,29 @@ footer {
   .contact-info a {
     color: #e63946;
   }
+
+
+li::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f89999;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  li:hover::before {
+    transform: scaleX(1);
+  }
+  li {
+    position: relative;
+    color: #f89999;
+    text-decoration: none;
+  }
+  
+  li:hover {
+    color: #f89999;
+  }
