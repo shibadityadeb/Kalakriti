@@ -84,12 +84,13 @@ header {
     border-radius: 8px; 
     text-align: center; 
     width: 250px; 
+    
 }
 
 .team-image {
     width: 100%; 
-    height: auto;
-    border-radius: 8px;
+    height: 250px;
+    border-radius: 50%;
 }
 footer {
     background-color: #f89999;
