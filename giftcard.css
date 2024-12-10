@@ -185,7 +185,7 @@ footer {
   height: 50px;
   width: 50px;
 }
-img {
+.social-media > a > img {
   max-width: 40px; 
   height: auto;    
   width: 50%;      

@@ -177,3 +177,36 @@ p {
     color: #555;
     line-height: 1.5;
 }
+
+
+
+
+footer {
+    background-color: #f89999;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    color: #e63946;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+  }
+  .social-media > a > img {
+    max-width: 40px; 
+    height: auto;    
+    width: 50%;      
+  }
+  
+  
+  .contact-info a {
+    color: #e63946;
+  }
