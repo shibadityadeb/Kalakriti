@@ -166,3 +166,32 @@ body {
     bottom: 20px;
     left: 20px;
 }
+footer {
+  background-color: #f89999;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #e63946;
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+}
+img {
+  max-width: 40px; 
+  height: auto;    
+  width: 50%;      
+}
+
+
+.contact-info a {
+  color: #e63946;
+}
